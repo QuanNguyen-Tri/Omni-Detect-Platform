@@ -1,0 +1,13 @@
+{
+  "name": "omni-detect-demo-ui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 5173 --directory ..",
+    "build": "node scripts/build-pages.mjs",
+    "preview": "node scripts/preview-pages.mjs",
+    "deploy:pages": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
